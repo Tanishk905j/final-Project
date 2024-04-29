@@ -1,0 +1,150 @@
+body{
+    background: cyan;
+    position: relative;
+}
+.navbar{
+    background: rgb(42, 37, 37);
+    border-radius: 5px;
+}
+.navbar ul{
+    overflow: auto;
+    margin-left: 750px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 19px 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 750;
+    font-size: 16px;
+    color: whitesmoke;
+} 
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: skyblue;
+    font-family: "poppins", sans-serif;
+    font-weight: 750;
+    font-size: 16px;
+}
+.navbar .Login h1{
+    text-align: right;
+}
+.navbar  li a:hover{
+    color: whitesmoke;
+}
+
+
+
+
+
+.prev{
+
+    display: flex;
+    background-color: transparent;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 5px;
+
+    margin-left: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px black;
+}
+.prev .label{
+    width: 131px;
+    height: 72px;
+    background-color: transparent;
+}
+
+.prev input{
+    margin: 0px 20px;
+    width: 251px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight:500;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+}
+.prev button{
+    margin: 0px 17px;
+    width: 251px;
+    height: 40px;
+    font-size: 21px;
+    font-family: "poppins", sans-serif;
+    font-weight:bolder;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+    background-color: #001b94;
+    color: whitesmoke;
+}
+.plan1{
+    height: 75px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+}
+.plan2{
+    height: 75px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+}
+.plan3{
+    height: 75px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+}
+.plan4{
+    height: 75px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+}
+.plan5{
+    height: 75px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+}
+label{
+    padding: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.plan1 input{
+    margin-left: 517px;
+}
+.plan2 input{
+    margin-left: 475px;
+}
+.plan3 input{
+    margin-left: 491px;
+}
+.plan4 input{
+    margin-left: 477px;
+}
+.plan5 input{
+    margin-left: 450px;
+}
+
+button{
+    margin: 0px 17px;
+    width: 251px;
+    height: 40px;
+    font-size: 21px;
+    font-family: "poppins", sans-serif;
+    font-weight:bolder;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+    background-color: #001b94;
+    color: whitesmoke;
+}
+
+
+button:hover{
+    background-color: #0056b3;
+}
